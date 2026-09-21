@@ -1,0 +1,14 @@
+[project]
+name = "signaldesk-workflow-lab"
+version = "1.0.0"
+description = "Explainable incident triage workflow with retries and action gates"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Javier Garcia Rey" }]
+keywords = ["workflow", "incident-response", "policy-engine", "audit-trail", "python"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["workflow_lab*"]
+
