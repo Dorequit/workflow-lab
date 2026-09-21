@@ -1,0 +1,15 @@
+{
+  "title": "Intermittent payment provider failures",
+  "service": "payments",
+  "environment": "production",
+  "customer_impact": true,
+  "error_rate_percent": 8.2,
+  "affected_users": 260,
+  "symptoms": [
+    "Timeouts are concentrated on one payment provider",
+    "Retry success rate is below normal"
+  ],
+  "requested_action": "publish_status",
+  "simulate_tool_failure": false
+}
+

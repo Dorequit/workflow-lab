@@ -1,0 +1,15 @@
+{
+  "title": "Checkout requests failing for EU customers",
+  "service": "checkout",
+  "environment": "production",
+  "customer_impact": true,
+  "error_rate_percent": 28.4,
+  "affected_users": 1740,
+  "symptoms": [
+    "5xx responses increased after the 09:15 deployment",
+    "EU checkout conversion dropped sharply"
+  ],
+  "requested_action": "restart_service",
+  "simulate_tool_failure": true
+}
+

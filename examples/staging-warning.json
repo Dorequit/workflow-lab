@@ -1,0 +1,14 @@
+{
+  "title": "Unexpected login errors in staging",
+  "service": "identity",
+  "environment": "staging",
+  "customer_impact": false,
+  "error_rate_percent": 17.3,
+  "affected_users": 0,
+  "symptoms": [
+    "Synthetic sign-ins failed after a test configuration change"
+  ],
+  "requested_action": "none",
+  "simulate_tool_failure": false
+}
+
